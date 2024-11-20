@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árboles Binarios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Árboles Binarios - Recorridos</h1>
+
+  <!-- Selector de árboles -->
+  <div id="tree-selector">
+    <button onclick="selectTree(1)">Árbol 1</button>
+    <button onclick="selectTree(2)">Árbol 2</button>
+    <button onclick="selectTree(3)">Árbol 3</button>
+    <button onclick="selectTree(4)">Árbol 4</button>
+  </div>
+
+  <!-- Contenedor para la imagen del árbol -->
+  <div id="tree-image-container">
+    <img id="tree-image" src="" alt="Selecciona un árbol para empezar">
+  </div>
+
+  <!-- Botones para los recorridos -->
+  <div id="controls">
+    <button onclick="breadthFirstTraversal()">Recorrido en Amplitud</button>
+    <button onclick="preOrderTraversal()">Recorrido en Preorden</button>
+    <button onclick="inOrderTraversal()">Recorrido en Inorden</button>
+    <button onclick="postOrderTraversal()">Recorrido en Postorden</button>
+  </div>
+
+  <!-- Resultado del recorrido -->
+  <div id="output">
+    <h2>Resultado:</h2>
+    <div id="result"></div>
+  </div>
+
+  <!-- Vincula el script -->
+  <script src="script.js"></script>
+</body>
+</html>

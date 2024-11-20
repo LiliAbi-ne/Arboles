@@ -1,0 +1,88 @@
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #2d2e48, #3a3b5a);
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #d4bfff;
+  margin-bottom: 20px;
+}
+
+#tree-selector button {
+  background: #ff85c0;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#tree-selector button:hover {
+  background: #ff5e99;
+}
+
+#tree-image-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#tree-image {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #d4bfff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#controls button {
+  margin: 10px;
+  background: #ff85c0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#controls button:hover {
+  background: #ff5e99;
+  transform: translateY(-2px);
+}
+
+#output {
+  margin-top: 20px;
+  padding: 20px;
+  background: #3a3b5a;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.result-node {
+  display: inline-block;
+  background: #ff85c0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px;
+  transition: transform 0.2s;
+}
+
+.result-node:hover {
+  transform: scale(1.1);
+}
